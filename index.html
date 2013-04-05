@@ -4,25 +4,28 @@
         <title> Songmash - hosted by Tornado </title>
         <script>
             function displayDate() {
-                document.getElementById("demo").innerHTML=Date();
+                document.getElementById("date").innerHTML=Date();
             }
         </script>
     </head>
 
     <body>
-        <p>SONGMASH
-        <p>BOIL 'EM, MASH 'EM, STICK 'EM IN A STEW
+        <p>SONGMASH</p>
+        <p>BOIL 'EM, MASH 'EM, STICK 'EM IN A STEW</p>
         <p>
         <audio autoplay="autoplay" preload="none" controls="controls">
             <source type="audio/mpeg" src="music/KidCudi_Soundtrack_to_My_Life.mp3">
             HTML5 not enabled by browser
-        </audio>
+         </audio>
+        </p>
         <p> 
         <audio autoplay="autoplay" preload="none" controls="controls">
             <source src="music/Taylor_Swift_Trouble.mp3" type="audio/mpeg">
             HTML5 not enabled by browser
         </audio>
-
+        </p>
+        <p id="date">View today's date</p>
+        <button type="button" onclick="displayDate()">Display Date</button>
     </body>
 
 
