@@ -1,6 +1,4 @@
 #!/usr/bin/python
-# Alex Spitzer (2013)
-# Andrew Halpern <3 Amber
 
 import os
 import random
