@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -f songs ];
+then
+    rm songs
+fi
+
+for f in music/*.wav
+do
+    echo $f >> songs
+done
+
